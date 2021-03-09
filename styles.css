@@ -134,6 +134,11 @@ h1, h2{
     display: block;
 }
 */
-.test4{
-    background: black;
+
+#add-book #hide{
+    width: 30px;
+}
+
+#add-book label{
+    line-height: 52px;
 }
