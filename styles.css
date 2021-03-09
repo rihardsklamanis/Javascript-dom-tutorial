@@ -134,6 +134,15 @@ h1, h2{
     display: block;
 }
 */
+#tabbed-content .panel{
+    display: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+#tabbed-content .panel.active{
+    display: block;
+}
 
 #add-book #hide{
     width: 30px;
@@ -142,3 +151,4 @@ h1, h2{
 #add-book label{
     line-height: 52px;
 }
+
